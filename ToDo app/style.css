@@ -1,0 +1,65 @@
+#frameBackground{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg,#729ffa,#c97add);
+    align-items: center;
+}
+
+#heading{
+    font-family: Arial;
+    color: rgb(9, 9, 9);
+}  
+
+#input{
+    width: 80%;
+    margin:5px 0 5px ;
+}
+
+#button{
+    background-color: blueviolet;
+    border: none;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    
+}
+
+#Div{ 
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    max-height: 275px;
+    background: #fff;
+    margin-top: 8%;
+    padding: 10px 30px 10px;
+    border-radius: 10px;
+}
+
+#topDiv{
+    height: 30px;
+    background-color: #eeaaff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+#middleDiv{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
